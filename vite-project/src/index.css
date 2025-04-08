@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9fafb; /* Light background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Example of a simple fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Add a custom box shadow */
+.custom-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Transition effect on hover */
+button:hover {
+  background-color: #4F46E5; /* Custom hover background */
+}
+
+/* Links styling */
+a {
+  text-decoration: none;
+  color: #4F46E5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* Background Image Styles */
+/* Background Image Styles */
+/* Background Image Styles */
+.bg-login-register {
+    background-image: url('/images/bg.jpg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Make sure it covers the full viewport height */
+  }
+  
+  /* Form Background */
+  .form-container {
+    background-color: rgb(18, 158, 147);  /* Solid white background for the form */
+    opacity: 1;  /* Ensure no transparency for the form */
+    padding: 30px; /* Add some padding inside the form */
+    border-radius: 8px;  /* Optional: round the corners of the form */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+  }
+  
